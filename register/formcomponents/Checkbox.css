@@ -1,0 +1,72 @@
+a {
+  color: var(--darker-teal);
+}
+a:hover {
+  color: var(--darkest-teal);
+}
+
+.popup .content::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 10000;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 5em auto;
+  padding: 1.125em;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  transition: all 5s ease-in-out;
+  max-width: 450px;
+  overflow-y: auto;
+  max-height: 80%;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+  z-index: 10000;
+}
+
+.popup .h2 {
+  margin: 0 auto;
+  width: fit-content;
+  color: #333;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: var(--teal);
+}
+
+.popup .content {
+  max-height: 30%;
+}
+
+.popup {
+  width: 70%;
+}

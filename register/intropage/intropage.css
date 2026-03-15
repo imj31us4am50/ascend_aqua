@@ -1,0 +1,238 @@
+.logo {
+  width: 128px;
+  /* position: -webkit-sticky;
+  position: sticky;
+  top: 0px; */
+  position: fixed;
+  top: 0.5rem;
+  z-index: 500;
+}
+
+.intropagecontainer {
+  overflow: hidden;
+}
+
+.maxwidth {
+  max-width: 500px;
+}
+
+.containerofdesccomp {
+  max-width: 1440px;
+}
+
+.desc,
+.comp {
+  width: 100%;
+}
+
+.styling {
+  width: 100%;
+  /* background: var(--teal); */
+  border-radius: 15px;
+  max-width: 250px;
+  padding: 1rem;
+  box-shadow: 1px 1px 3px gray;
+}
+
+.styling:hover {
+  cursor: pointer;
+  animation: scale 0.5s, boxshadow 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.fi-rs-comment,
+.fi-rs-document,
+.fi-rs-puzzle-piece {
+  font-size: 32px;
+}
+
+.formdesc-container {
+  padding: 7rem 2rem 2rem 2rem;
+  margin: auto;
+  max-width: 1440px;
+}
+
+h1 {
+  margin: auto;
+  font-size: 3rem;
+}
+.subtitle {
+  font-size: 2rem;
+}
+
+.fi-rs-angle-up {
+  color: var(--teal);
+  font-size: 21px;
+  width: fit-content;
+  margin: auto;
+  display: block;
+  position: relative;
+  z-index: 200;
+  /* text-shadow: 1px 2px 3px var(--teal); */
+  animation: up-and-down 5s infinite;
+  cursor: pointer;
+  top: 30px;
+}
+
+.fi-rs-angle-down {
+  color: white;
+  font-size: 21px;
+  width: fit-content;
+  margin: auto;
+  display: block;
+  position: relative;
+  z-index: 200;
+  /* text-shadow: 1px 2px 3px white; */
+  animation: up-and-down 5s infinite;
+  cursor: pointer;
+  top: 15px;
+}
+
+/* a {
+  position: relative;
+  z-index: 500;
+} */
+
+.desccont {
+  color: white;
+  width: 100%;
+  margin: 1rem;
+  max-width: 700px;
+}
+
+.formcont {
+  color: white;
+  width: 100%;
+  margin: 1rem;
+  max-width: 500px;
+}
+
+.intro-page-1 {
+  background: url("https://imj31us4am50.github.io/ascendaquamedia/handinwaterdarkgradient.jpg")
+    no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.tealcolor {
+  color: var(--teal);
+}
+
+.intro-page-2 {
+  background: white;
+  position: relative;
+
+  min-height: 100vh;
+}
+
+.sendtosigninupformbtn {
+  font-size: 21px;
+}
+
+button {
+  margin: auto;
+  width: fit-content;
+}
+
+/* ---------------------- TILT CSS -----------------------*/
+
+/* upper */
+
+.custom-shape-divider-top-1669817726 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1669817726 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 102px;
+  transform: rotateY(180deg);
+  opacity: 0.5;
+  z-index: 100;
+}
+
+.custom-shape-divider-top-1669817726 .shape-fill {
+  fill: var(--darker-teal);
+}
+
+/* lower */
+
+.custom-shape-divider-bottom-1669817849 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1669817849 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 102px;
+  transform: rotateY(180deg);
+  opacity: 0.5;
+}
+
+.custom-shape-divider-bottom-1669817849 .shape-fill {
+  fill: var(--darker-teal);
+}
+
+/* ---------------------- END OF TILT CSS -----------------------*/
+
+@keyframes up-and-down {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes boxshadow {
+  from {
+    box-shadow: 1px 1px 3px gray;
+  }
+  to {
+    box-shadow: 2px 2px 6px gray;
+  }
+}
+
+/* MEDIA QUERIES ------------------------------------------------ */
+@media screen and (max-width: 768px) {
+  .formdesc-container,
+  .containerofdesccomp,
+  .comp {
+    flex-direction: column;
+  }
+  .intro-page-1 {
+    overflow: visible;
+    height: fit-content;
+  }
+  .fi-rs-angle-up,
+  .fi-rs-angle-down {
+    display: none;
+  }
+}

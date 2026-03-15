@@ -1,0 +1,141 @@
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css");
+
+.logo {
+  width: 128px;
+  /* background: red; */
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: var(--teal);
+  text-decoration: none;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .nav2 {
+  display: none;
+} 
+
+.nav1 {
+  display: none;
+} */
+
+li {
+  list-style-type: none;
+  margin: 0px 8px;
+  padding: 0.4rem 0.5rem;
+}
+
+#highlight {
+  background: var(--teal);
+  color: white;
+  border-radius: 50px;
+  transition: background 0.6s;
+}
+
+#highlight:hover a {
+  color: var(--teal);
+}
+
+#highlight:hover {
+  background: white;
+
+  cursor: pointer;
+}
+
+#current {
+  color: var(--teal);
+}
+
+.dropdownicon {
+  cursor: pointer;
+}
+
+.dropdownmenu {
+  display: none;
+  border-bottom: 1px solid rgba(12, 171, 168, 0.1);
+  position: relative; /*if anything is wrong w the navbar, try removing this*/
+}
+
+.dropdownitem {
+  border-top: 1px solid rgba(12, 171, 168, 0.1);
+  margin: auto;
+  text-align: center;
+
+  padding: 0.5rem;
+}
+
+.dropdownitem,
+.dropdownitem li,
+.dropdownitem li a {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.dropdownitem:hover {
+  background: rgba(12, 171, 168, 0.1);
+}
+
+.nav2 {
+  background: rgba(12, 171, 168, 0.3);
+}
+
+.dropdownmenu .fi {
+  position: relative;
+  right: 5px;
+  top: 1px;
+}
+
+/* .nav1 *,
+.nav2 * {
+  color: white;
+} */
+/* tryout for the navbar dropdown issue. didnt work
+.displaynone {
+  display: none !important;
+}
+
+.displayblock {
+  display: block !important;
+} */
+
+.nav2logoandmenuiconcontainer {
+  display: none;
+}
+
+.fi-rs-burger-menu {
+  font-size: 32px;
+  /* background: red; */
+}
+
+/* i {
+  background: red;
+} */
+
+@media screen and (max-width: 768px) {
+  .nav1 {
+    display: none;
+  }
+  .nav2 {
+    display: block;
+  }
+  .nav2logoandmenuiconcontainer {
+    display: flex;
+    align-items: flex-start;
+  }
+}

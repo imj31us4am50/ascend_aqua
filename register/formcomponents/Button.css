@@ -1,0 +1,12 @@
+.btn {
+  background: var(--darker-teal);
+  width: fit-content;
+}
+
+.btn:hover {
+  background: var(--darkest-teal);
+}
+
+.btn:focus {
+  outline: none;
+}

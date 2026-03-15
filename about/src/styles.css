@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
+/* ICONS */
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css");
+@import url("https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css");
+@import url("https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css");
+
+:root {
+  --lightest-teal: #0fc2c0;
+  --lighter-teal: #0caba8;
+  --teal: #008f8c;
+  --darker-teal: #015958;
+  --darkest-teal: #023535;
+  --title-size: 3rem;
+  --subtitle-size: 2rem;
+  --text-size: 1rem;
+}
+
+.tealcolor {
+  color: var(--teal);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.App {
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.introtomainpage {
+  background: url("https://imj31us4am50.github.io/ascendaquamedia/handinwaterdarkgradient.jpg")
+    no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.intro {
+  margin-top: 4rem;
+  user-select: none;
+}
+
+.descriptionlogo {
+  width: 100%;
+  height: 100%;
+  animation: opacity-fade 3s;
+}
+.logo-container {
+  max-width: 16rem;
+  margin: auto;
+}
+
+.first-column,
+.second-column {
+  flex: 1 1 0px;
+  max-width: 500px;
+}
+
+.first-column {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px gray;
+}
+
+.second-column .description {
+  animation: opacity-fade 6s;
+}
+
+/*--------------SCROLLBAR STYLING----------------*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--teal);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+}
+
+@keyframes opacity-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    flex-direction: column;
+  }
+  .intro {
+    margin-top: 0;
+  }
+}

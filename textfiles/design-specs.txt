@@ -1,0 +1,31 @@
+
+Ascend Aqua
+
+~~~ COLORS HEX ~~~
+
+lightest-teal: #0FC2C0
+lighter-teal:  #0CABA8
+teal:          #008F8C
+darker-teal:   #015958
+darkest-teal:  #023535
+
+~~~ FONT ~~~
+
+(Google Fonts)
+
+Josefin Sans
+
+Light 300 & Regular 400
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+font-family: 'Josefin Sans', sans-serif;
+
+~~~ FONT SIZES ~~~
+
+regular - 16px
+subtitles - 32px
+titles - 48px
+
+
+

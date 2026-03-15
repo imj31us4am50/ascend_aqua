@@ -1,0 +1,44 @@
+on resize
+
+if innerwidth > 768 
+
+display none
+
+else altercation
+
+
+onClick={() => {
+                  let dropdown = document.getElementById("dropdownmenu");
+
+                  if (dropdown.style.display === "none") {
+                    dropdown.classList.add("displayblock");
+                    dropdown.classList.remove("displaynone");
+                  } else {
+                    dropdown.classList.add("displaynone");
+                    dropdown.classList.remove("displayblock");
+                  }
+                }}
+                // onResize={() => {
+                //   if (window.innerWidth > 768)
+                //     setInterval(() => {
+                //       let dropdown = document.getElementById("dropdownmenu");
+                //       dropdown.style.display = "none";
+
+                //       dropdown.classList.add("displaynone");
+                //     }, 1000);
+                // }}
+
+                onResize={() => {
+                  let dropdown = document.querySelector("#dropdownmenu");
+                  if (window.innerWidth > 768)
+                    dropdown.classList.add("displaynone");
+                  else {
+                    if (dropdown.style.display === "none") {
+                      dropdown.classList.add("displayblock");
+                      dropdown.classList.remove("displaynone");
+                    } else {
+                      dropdown.classList.add("displaynone");
+                      dropdown.classList.remove("displayblock");
+                    }
+                  }
+                }}

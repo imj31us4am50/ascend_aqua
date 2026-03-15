@@ -1,0 +1,27 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css')
+
+<i class="fi fi-rs-user"></i>
+<i class="fi fi-rs-home"></i>
+<i class="fi fi-rs-search"></i>
+<i class="fi fi-rs-heart"></i>
+<i class="fi fi-rs-comment"></i>
+<i class="fi fi-rs-document"></i>
+<i class="fi fi-rs-info"></i>
+<i class="fi fi-rs-interrogation"></i>
+<i class="fi fi-rs-puzzle-piece"></i>
+<i class="fi fi-rs-burger-menu"></i>
+<i class="fi fi-rs-angle-down"></i>
+<i class="fi fi-rs-angle-double-small-down"></i>
+
+
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css')
+
+<i class="fi fi-brands-instagram"></i>
+<i class="fi fi-brands-twitter"></i>
+<i class="fi fi-brands-facebook"></i>
+<i class="fi fi-brands-github"></i>
+
+
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css')
+
+<i class="fi fi-ss-heart"></i>

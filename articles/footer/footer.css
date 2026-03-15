@@ -1,0 +1,21 @@
+.footer-icons {
+  font-size: 21px;
+  color: var(--teal);
+  max-width: 200px;
+}
+
+.footer-icons i {
+  cursor: pointer;
+}
+/* make it stick to the bottom
+.container-of-footer {
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .container-of-footer {
+    position: static;
+  }
+}
+*/

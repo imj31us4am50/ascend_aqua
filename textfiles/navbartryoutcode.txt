@@ -1,0 +1,87 @@
+<ul>
+            <li className="dropdown-item">
+              <a href="#home">ACASĂ</a>
+            </li>
+            <li className="dropdown-item">
+              <a href="#articles">ARTICOLE</a>
+            </li>
+            <li className="dropdown-item">
+              <a href="#games">JOCURI</a>
+            </li>
+            <li className="dropdown-item">
+              <a href="#chat">CHAT</a>
+            </li>
+            <li className="dropdown-item">
+              <a href="#about">DESPRE</a>
+            </li>
+            <li className="dropdown-item">
+              <a href="#account">CONTUL MEU</a>
+            </li>
+</ul>
+
+
+<a href="#home" className="dropdown-item">ACASĂ</a>
+<a href="#articles" className="dropdown-item">ARTICOLE</a>
+<a href="#games" className="dropdown-item">JOCURI</a>
+<a href="#chat" className="dropdown-item">CHAT</a>
+<a href="#about" className="dropdown-item">DESPRE</a>
+<a href="#account" className="dropdown-item">CONTUL MEU</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div className="dropdownmenuicon dropdown dropleft show">
+            <a
+              href="#"
+              className="dropdown-toggle btn"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <img
+                src="https://imj31us4am50.github.io/ascendaquamedia/menu.png"
+                alt="menu icon"
+              />
+            </a>
+            <div
+              className="dropdown-menu"
+              aria-labelledby="dropdownMenuLink"
+            ></div>
+            <a href="#home" className="dropdown-item">
+              ACASĂ
+            </a>
+            <a href="#articles" className="dropdown-item">
+              ARTICOLE
+            </a>
+            <a href="#games" className="dropdown-item">
+              JOCURI
+            </a>
+            <a href="#chat" className="dropdown-item">
+              CHAT
+            </a>
+            <a href="#about" className="dropdown-item">
+              DESPRE
+            </a>
+            <a href="#account" className="dropdown-item">
+              CONTUL MEU
+            </a>
+          </div>

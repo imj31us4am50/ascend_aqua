@@ -1,0 +1,77 @@
+.first-column {
+  width: 40%;
+}
+
+.second-column {
+  width: 60%;
+}
+
+.posting-system {
+  border: 2px outset var(--teal);
+  border-radius: 15px;
+  max-width: 500px;
+  margin: auto;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  padding: 0.35rem 0.6rem;
+  border-radius: 15px;
+  border: 2px solid var(--teal);
+  color: var(--teal);
+  cursor: pointer;
+}
+
+.imagepfp {
+  width: 30px;
+  border-radius: 50%;
+}
+.post-button {
+  padding: 0.45rem 0.7rem;
+  border-radius: 15px;
+  border: none;
+  background: var(--teal);
+  color: white;
+}
+
+.uploadimageinput {
+  font-size: 1rem;
+}
+.article-post {
+  max-width: 600px;
+  margin: auto;
+}
+
+#username {
+  font-weight: 500;
+}
+
+.user-details-row {
+  border-bottom: 1px solid rgba(15, 194, 192, 0.1); /*lightest teal on rgba*/
+  background: rgba(15, 194, 192, 0.1); /*lightest teal on rgba*/
+  border-radius: 12px 12px 0 0;
+}
+
+.user-post-textarea {
+  resize: none;
+  min-height: 150px;
+  width: 100%;
+  overflow-y: auto;
+  border: none;
+}
+.user-post-textarea:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .maincontainerofmainpage {
+    flex-direction: column;
+  }
+  .first-column,
+  .second-column {
+    width: 100%;
+  }
+}

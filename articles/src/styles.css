@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
+/* ICONS */
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css");
+@import url("https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css");
+@import url("https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css");
+
+:root {
+  --lightest-teal: #0fc2c0;
+  --lighter-teal: #0caba8;
+  --teal: #008f8c;
+  --darker-teal: #015958;
+  --darkest-teal: #023535;
+  --title-size: 3rem;
+  --subtitle-size: 2rem;
+  --text-size: 1rem;
+}
+
+.tealcolor {
+  color: var(--teal);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.first-intropart {
+  width: 40%;
+}
+.second-intropart {
+  width: 60%;
+}
+
+.intropart {
+  background: url("https://imj31us4am50.github.io/ascendaquamedia/handinwaterdarkgradient.jpg")
+    no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 70vh;
+  overflow: hidden;
+}
+
+.App {
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container-of-search-bar {
+  background: white;
+  width: fit-content;
+  margin: auto;
+  border-radius: 25px;
+  height: 46px;
+  margin-top: 1.5rem;
+}
+.first-intropart .title {
+  max-width: 500px;
+}
+
+/*-----------------SEARCHBAR STYLING--------------------*/
+
+input[type="search"] {
+  border-radius: 25px;
+  max-width: 600px;
+  border: 2px outset var(--teal);
+  padding: 0.5em 2.5em;
+  font-size: 1.125rem;
+  background: url("https://imj31us4am50.github.io/ascendaquamedia/search-teal.png")
+    no-repeat;
+  background-size: 25px;
+  background-position: left;
+  background-position-x: 10px;
+  position: relative;
+  bottom: 25px;
+}
+
+input:active,
+input:focus {
+  outline: none;
+}
+::-webkit-search-cancel-button {
+  display: none;
+}
+
+.search-icon {
+  width: 50px;
+}
+
+/*--------------SCROLLBAR STYLING----------------*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--teal);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .intropart {
+    flex-direction: column;
+  }
+  .first-intropart,
+  .second-intropart {
+    width: 100%;
+  }
+}

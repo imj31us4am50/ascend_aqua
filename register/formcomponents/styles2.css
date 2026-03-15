@@ -1,0 +1,12 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container-of-signup-form {
+  background: var(--teal);
+  border-radius: 15px;
+  max-width: 450px;
+  position: relative;
+  z-index: 101;
+  box-shadow: 1px 1px 3px gray;
+}

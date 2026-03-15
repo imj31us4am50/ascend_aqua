@@ -1,0 +1,9 @@
+<div className="logo">
+          <a href="#home">
+            <img
+              src="https://imj31us4am50.github.io/ascendaquamedia/ascendaqualogo.png"
+              alt="logo"
+              className="logo"
+            />
+          </a>
+        </div>

@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
+/* ICONS */
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css");
+@import url("https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css");
+@import url("https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css");
+
+:root {
+  --lightest-teal: #0fc2c0;
+  --lighter-teal: #0caba8;
+  --teal: #008f8c;
+  --darker-teal: #015958;
+  --darkest-teal: #023535;
+  --title-size: 3rem;
+  --subtitle-size: 2rem;
+  --text-size: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  overflow: hidden;
+}
+
+.App {
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/*--------------SCROLLBAR STYLING----------------*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--teal);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    overflow: visible;
+  }
+}
