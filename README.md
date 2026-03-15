@@ -28,3 +28,5 @@ The color was chosen to enhance the marine atmosphere of the website and to refl
 ![Login Page](https://imj31us4am50.github.io/imgs/aa_login.gif)
 
 ![Main Page](https://imj31us4am50.github.io/imgs/aa_main.gif)
+
+![About Page](https://imj31us4am50.github.io/imgs/aa_about.gif)
